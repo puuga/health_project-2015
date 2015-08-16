@@ -31,13 +31,13 @@
               <div class="form-group">
                 <label class="col-lg-4 control-label"><?php echo $gender; ?></label>
                 <div class="col-lg-8">
-                  <div class="radio radio-primary">
+                  <div class="radio radio-material-indigo">
                     <label>
                       <input type="radio" name="gender" id="gender_male" value="male">
                       <?php echo $gender_male; ?>
                     </label>
                   </div>
-                  <div class="radio radio-primary">
+                  <div class="radio radio-material-indigo">
                     <label>
                       <input type="radio" name="gender" id="gender_female" value="female">
                       <?php echo $gender_female; ?>
@@ -74,7 +74,9 @@
             </form>
           </div>
           <div class="panel-footer text-right">
-            <a href="person_questionnaire.php" class="btn btn-material-indigo"><?php echo $next; ?></a>
+            <a href="person_questionnaire.php" class="btn btn-material-indigo">
+              <i class="mdi-navigation-arrow-forward"></i> <?php echo $next; ?>
+            </a>
           </div>
         </div>
 

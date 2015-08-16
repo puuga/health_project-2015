@@ -1,4 +1,4 @@
-<div class="navbar navbar-material-brown-500 navbar-fixed-top">
+<div class="navbar navbar-material-pink-500 navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button"

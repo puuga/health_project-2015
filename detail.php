@@ -58,7 +58,11 @@
 
     <div class="row">
       <div class="col-lg-6 col-lg-offset-6 text-right">
-        <a class="btn btn-material-orange btn-lg" href="#" role="button">
+        <a class="btn btn-flat btn-default btn-lg" href="index.php" role="button">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+          <?php echo $decline; ?>
+        </a>
+        <a class="btn btn-material-orange btn-lg" href="welcome.php" role="button">
           <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
           <?php echo $accept; ?>
         </a>

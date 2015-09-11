@@ -30,7 +30,10 @@
             <p>
               <img src="images/nu_logo.png" alt="Naresuan University" />
             </p>
-            <h1><?php echo $title; ?></h1>
+            <h1>
+              <?php echo $title_th; ?><br/>
+              <?php echo $title_en; ?>
+            </h1>
           </div>
         </div>
       </div>
@@ -43,7 +46,7 @@
       <div class="col-lg-6 col-lg-offset-6 text-right">
         <a class="btn btn-material-orange btn-lg" href="detail.php" role="button">
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          Next
+          <?php echo $next;?>
         </a>
       </div>
     </div>

@@ -1,5 +1,7 @@
 <?php
 $title = "โปรแกรมประเมินความเสี่ยงทางการยศาสตร์ในสถานีงานสำนักงาน : Rapid Office Strain Assessment (ROSA)";
+$title_th = "โปรแกรมประเมินความเสี่ยงทางการยศาสตร์ในสถานีงานสำนักงาน";
+$title_en = "Rapid Office Strain Assessment (ROSA)";
 $title_nev = "Rapid Office Strain Assessment (ROSA)";
 $title_mini = "ROSA";
 $preface = "บทนำ";

@@ -2,14 +2,29 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+<!-- SEO -->
+<!-- General -->
+<meta name="description" content="<?php echo $title; ?>">
+<link rel='author' href='https://plus.google.com/u/0/+SiwawesWongcharoen'/>
+<!-- Facebook Open Graph-->
+<meta property='og:title' content='<?php echo $title; ?>'/>
+<meta property='og:type' content='website'/>
+<meta property='og:description' content='<?php echo $title; ?>'/>
+
+<!-- Twitter -->
+<meta name='twitter:card' content='summary'>
+<meta name='twitter:title' content='<?php echo $title; ?>'>
+<meta name='twitter:description' content='<?php echo $title; ?>'>
+
+
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- Optional theme -->
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
+<!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/jquery-2.1.4.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 <!--  material -->
 <link href="css/roboto.min.css" rel="stylesheet">

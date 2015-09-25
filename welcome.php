@@ -30,6 +30,39 @@
             </p>
           </div>
           <div class="panel-footer">
+            <div class="row">
+
+              <div class="col-lg-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <?php echo $researcher; ?>
+                  </div>
+                  <div class="panel-body">
+                    <ol>
+                      <li><?php echo $researcher_1; ?></li>
+                      <li><?php echo $researcher_2; ?></li>
+                      <li><?php echo $researcher_3; ?></li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <?php echo $adviser; ?>
+                  </div>
+                  <div class="panel-body">
+                    <ol>
+                      <li><?php echo $adviser_1; ?></li>
+                      <li><?php echo $adviser_2; ?></li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
             <?php echo $researcher; ?>
             <?php echo $researcher_1; ?>
             <?php echo $researcher_2; ?>

@@ -3,9 +3,9 @@
   // Create connection
 
   $server = "localhost";
-  $username = "health_project";
+  $username = "health";
   $password = "12345678901";
-  $dbname = "health_project";
+  $dbname = "health";
 
   $conn = new mysqli($server, $username, $password, $dbname);
 

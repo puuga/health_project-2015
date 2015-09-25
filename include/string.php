@@ -43,4 +43,5 @@ $process_text = "ขั้นตอนการทำแบบประเมิ
 $process_a_title = "1) section A เก้าอี้";
 $process_b_title = "2) section B จอคอมพิวเตอร์และโทรศัพท์";
 $process_c_title = "3) section C เมาส์และแป้นพิมพ์";
+$basic_info = "ข้อมูลพื้นฐาน";
 ?>

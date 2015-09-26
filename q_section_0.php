@@ -25,55 +25,27 @@
             <h3><?php echo $basic_info; ?></h3>
           </div>
           <div class="panel-body">
-            <form class="form-horizontal">
+            <form class="form-horizontal" id="mainForm" method="post" action="">
               <fieldset>
+
                 <div class="form-group">
-                  <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-                  <div class="col-lg-10">
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputPassword" class="col-lg-2 control-label">Password</label>
-                  <div class="col-lg-10">
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                    <div class="checkbox">
-                      <label>
-                        <input type="checkbox"> Checkbox
-                      </label>
-                    </div>
-                    <br>
-                    <div class="togglebutton">
-                      <label>
-                        <input type="checkbox" checked=""> Toggle button
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label class="col-lg-2 control-label">Radios</label>
-                  <div class="col-lg-10">
-                    <div class="radio radio-primary">
-                      <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-                        Option one is this
-                      </label>
-                    </div>
-                    <div class="radio radio-primary">
-                      <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                        Option two can be something else
-                      </label>
-                    </div>
+                  <label for="inputName" class="col-lg-2 control-label">
+                    <?php echo $q_name; ?>
+                  </label>
+                  <div class="col-lg-8">
+                    <input type="text" class="form-control material-orange" id="inputName" placeholder="<?php echo $q_name; ?>" required>
                   </div>
                 </div>
 
                 <div class="form-group">
-                  <div class="col-lg-10 col-lg-offset-2">
-                    <button class="btn btn-default">Cancel</button>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                  <label for="inputEmail" class="col-lg-2 control-label">
+                    <?php echo $q_email; ?>
+                  </label>
+                  <div class="col-lg-8">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="<?php echo $q_email; ?>" required>
                   </div>
                 </div>
+
               </fieldset>
             </form>
           </div>
@@ -84,7 +56,7 @@
 
     <div class="row">
       <div class="col-lg-6 col-lg-offset-6 text-right">
-        <a class="btn btn-material-orange btn-lg" href="#" role="button">
+        <a class="btn btn-material-orange btn-lg" href="javascript:saveData()" role="button">
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           <?php echo $next; ?>
         </a>
@@ -93,6 +65,33 @@
     <br/>
 
   </div>
+
+  <script type="text/javascript">
+    function saveData() {
+      // validate form
+      validateForm();
+
+      // check browser support local storage
+      if ( !isLocalStorageSupported() ) {
+        return;
+      }
+
+      // save data to local storage
+      localStorage.setItem(key_name, $("#inputName").val());
+      localStorage.setItem(key_email, $("#inputEmail").val());
+
+      // redirect page to ...
+    }
+
+    function validateForm() {
+      if ( $("#inputName").val() === "" ) {
+        $("#inputName").focus();
+      }
+      if ( $("#inputEmail").val() === "" ) {
+        $("#inputEmail").focus();
+      }
+    }
+  </script>
   <?php include "nev_bar.php" ?>
 </body>
 </html>

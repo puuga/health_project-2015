@@ -33,6 +33,11 @@
 <script src="js/ripples.min.js"></script>
 <script src="js/material.min.js"></script>
 
+<!-- local script -->
+<!-- <script src="js/jquery.validate.min.js"></script>
+<script src="js/additional-methods.min.js"></script> -->
+<script src="js/local.js"></script>
+
 <style>
   body { padding-top: 70px; }
 </style>

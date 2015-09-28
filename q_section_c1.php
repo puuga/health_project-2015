@@ -22,7 +22,7 @@
       <div class="col-lg-12">
         <div class="panel panel-material-grey">
           <div class="panel-heading">
-            <h3><?php echo $basic_info; ?></h3>
+            <h3>c1</h3>
           </div>
           <div class="panel-body">
             <form class="form-horizontal" id="mainForm" method="post" action="">
@@ -81,7 +81,7 @@
       localStorage.setItem(key_email, $("#inputEmail").val());
 
       // redirect page to ...
-      window.location = "q_section_a1.php";
+      window.location = "q_section_c2.php";
     }
 
     function validateForm() {

@@ -76,6 +76,9 @@
         return;
       }
 
+      // clear localStorage first
+      localStorage.clear();
+
       // save data to local storage
       localStorage.setItem(key_name, $("#inputName").val());
       localStorage.setItem(key_email, $("#inputEmail").val());

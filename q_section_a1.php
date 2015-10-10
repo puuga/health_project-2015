@@ -38,7 +38,9 @@
                     <div class="radio radio-primary">
                       <label>
                         <input type="radio" name="qa1" id="qa1o1" value="1">
-                        Option one is this
+                        <?php echo $q_a1_o1; ?>
+                        <img class="img-responsive img-thumbnail" src="images/s1/Q1I1.JPG" alt="" />
+
                       </label>
                     </div>
                   </div>
@@ -47,7 +49,9 @@
                     <div class="radio radio-primary">
                       <label>
                         <input type="radio" name="qa1" id="qa1o2" value="2">
-                        Option two can be something else
+                        <?php echo $q_a1_o2; ?>
+                        <img class="img-responsive img-thumbnail" src="images/s1/Q1I2.JPG" alt="" />
+
                       </label>
                     </div>
                   </div>
@@ -56,7 +60,9 @@
                     <div class="radio radio-primary">
                       <label>
                         <input type="radio" name="qa1" id="qa1o3" value="3">
-                        Option one is this
+                        <?php echo $q_a1_o3; ?>
+                        <img class="img-responsive img-thumbnail" src="images/s1/Q1I3.JPG" alt="" />
+
                       </label>
                     </div>
                   </div>
@@ -65,7 +71,9 @@
                     <div class="radio radio-primary">
                       <label>
                         <input type="radio" name="qa1" id="qa1o4" value="4">
-                        Option one is this
+                        <?php echo $q_a1_o4; ?>
+                        <img class="img-responsive img-thumbnail" src="images/s1/Q1I4.JPG" alt="" />
+
                       </label>
                     </div>
                   </div>
@@ -97,7 +105,10 @@
                   <div class="col-lg-6">
                     <div class="checkbox">
                       <label>
-                        <input type="checkbox" name="qa1e1" id="qa1e1" value="1"> Checkbox
+                        <input type="checkbox" name="qa1e1" id="qa1e1" value="1">
+                        <?php echo $q_a1_e_o1; ?>
+                        <img class="img-responsive img-thumbnail" src="images/s1/Q1E1.JPG" alt="" />
+
                       </label>
                     </div>
                   </div>
@@ -105,7 +116,10 @@
                   <div class="col-lg-6">
                     <div class="checkbox">
                       <label>
-                        <input type="checkbox" name="qa1e2" id="qa1e2" value="1"> Checkbox
+                        <input type="checkbox" name="qa1e2" id="qa1e2" value="1">
+                        <?php echo $q_a1_e_o2; ?>
+                        <img class="img-responsive img-thumbnail" src="images/s1/Q1E2.JPG" alt="" />
+
                       </label>
                     </div>
                   </div>
@@ -135,7 +149,9 @@
   <script type="text/javascript">
     function saveData() {
       // validate form
-      validateForm();
+      if (!validateForm()) {
+        return;
+      }
 
       // check browser support local storage
       if ( !isLocalStorageSupported() ) {
@@ -152,12 +168,11 @@
     }
 
     function validateForm() {
-      if ( $("#inputName").val() === "" ) {
-        $("#inputName").focus();
+      if ( typeof $('input[name=qa1]:checked', '#mainForm').val() === "undefined" ) {
+        return false;
       }
-      if ( $("#inputEmail").val() === "" ) {
-        $("#inputEmail").focus();
-      }
+
+      return true;
     }
   </script>
   <?php include "nev_bar.php" ?>

@@ -15,7 +15,7 @@
   </script>
   <style>
     .sp-color{
-      background: linear-gradient(to bottom, #FF9800 0%,#FF9800 65%,#000000 65%,#9E9E9E 65%,#9E9E9E 100%); /* W3C */
+      background: linear-gradient(to bottom, #FF9800 0%,#FF9800 50%,#000000 50%,#9E9E9E 50%,#9E9E9E 100%); /* W3C */
     }
   </style>
 </head>
@@ -28,7 +28,7 @@
         <div class="panel panel-material-grey">
           <div class="panel-body text-center sp-color">
             <p>
-              <img src="images/nu_logo.png" alt="Naresuan University" />
+              <img src="images/nu_logo.png" alt="Naresuan University" class="img-responsive" style="margin:auto;"/>
             </p>
             <h1>
               <?php echo $title_th; ?><br/>

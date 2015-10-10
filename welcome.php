@@ -32,7 +32,7 @@
           <div class="panel-footer">
             <div class="row">
 
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-lg-offset-2">
                 <div class="panel panel-default">
                   <div class="panel-heading">
                     <?php echo $researcher; ?>
@@ -63,13 +63,7 @@
 
             </div>
 
-            <?php echo $researcher; ?>
-            <?php echo $researcher_1; ?>
-            <?php echo $researcher_2; ?>
-            <?php echo $and.$researcher_3; ?><br/>
-            <?php echo $adviser; ?>
-            <?php echo $adviser_1; ?>
-            <?php echo $and.$adviser_2; ?><br/>
+            
             <?php echo $naresuan_u; ?>
           </div>
         </div>

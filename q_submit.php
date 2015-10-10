@@ -40,8 +40,23 @@
       }
 
       var data = readStorage();
-
       console.log(data);
+
+      $.ajax({
+        url: "service_submit.php",
+        method: "POST",
+        data: data
+      })
+        .done(function(entry) {
+          // alert( "success" );
+          console.log(entry);
+
+          // redirect page to ...
+          window.location = "q_result.php?id="+entry.id;
+        })
+        .fail(function() {
+          alert( "error" );
+        });
     }
 
     function readStorage() {

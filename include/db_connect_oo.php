@@ -11,12 +11,14 @@
 
   // Check connection
   if ($conn->connect_error) {
-    echo "Failed to connect to MySQL: " . $conn->connect_error;
+    // echo "Failed to connect to MySQL: " . $conn->connect_error;
+    $mysql->error = $conn->connect_error;
+    echo json_encode($mysql);
     exit;
   } else {
-    //echo "Success: connected to MySQL";
+    // echo "Success: connected to MySQL";
   }
 
-  // $con->close();
+  // $conn->close();
 
 ?>

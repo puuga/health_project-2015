@@ -57,7 +57,7 @@
                   <div class="col-lg-6">
                     <div class="radio radio-primary">
                       <label>
-                        <input type="radio" name="qa4" id="qa4o3" value="3">
+                        <input type="radio" name="qa4" id="qa4o3" value="2">
                         <?php echo $q_a4_o3; ?>
                         <img class="img-responsive img-thumbnail" src="images/s1/Q4I3.JPG" alt="" />
                       </label>
@@ -67,7 +67,7 @@
                   <div class="col-lg-6">
                     <div class="radio radio-primary">
                       <label>
-                        <input type="radio" name="qa4" id="qa4o4" value="4">
+                        <input type="radio" name="qa4" id="qa4o4" value="2">
                         <?php echo $q_a4_o4; ?>
                         <img class="img-responsive img-thumbnail" src="images/s1/Q4I4.JPG" alt="" />
                       </label>

@@ -43,6 +43,7 @@
                       <li><?php echo $researcher_2; ?></li>
                       <li><?php echo $researcher_3; ?></li>
                     </ol>
+                    <?php echo $dept_health_science; ?> <?php echo $naresuan_u; ?>
                   </div>
                 </div>
               </div>
@@ -54,8 +55,14 @@
                   </div>
                   <div class="panel-body">
                     <ol>
-                      <li><?php echo $adviser_1; ?></li>
-                      <li><?php echo $adviser_2; ?></li>
+                      <li>
+                        <?php echo $adviser_1; ?></br>
+                        <?php echo $dept_health_science; ?> <?php echo $naresuan_u; ?>
+                      </li>
+                      <li>
+                        <?php echo $adviser_2; ?></br>
+                        <?php echo $dept_science; ?> <?php echo $naresuan_u; ?>
+                      </li>
                     </ol>
                   </div>
                 </div>
@@ -63,8 +70,8 @@
 
             </div>
 
-            
-            <?php echo $naresuan_u; ?>
+
+
           </div>
         </div>
       </div>

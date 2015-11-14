@@ -46,7 +46,7 @@
                   <div class="col-lg-12">
                     <div class="radio radio-primary">
                       <label>
-                        <input type="radio" name="qb2e" id="qb2eo2" value="2">
+                        <input type="radio" name="qb2e" id="qb2eo2" value="0">
                         <?php echo $q_b2e_o2; ?>
                       </label>
                     </div>
@@ -55,7 +55,7 @@
                   <div class="col-lg-12">
                     <div class="radio radio-primary">
                       <label>
-                        <input type="radio" name="qb2e" id="qb2eo3" value="3">
+                        <input type="radio" name="qb2e" id="qb2eo3" value="-1">
                         <?php echo $q_b2e_o3; ?>
                       </label>
                     </div>

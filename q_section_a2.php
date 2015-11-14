@@ -57,7 +57,7 @@
                   <div class="col-lg-6">
                     <div class="radio radio-primary">
                       <label>
-                        <input type="radio" name="qa2" id="qa2o3" value="3">
+                        <input type="radio" name="qa2" id="qa2o3" value="2">
                         <?php echo $q_a2_o3; ?>
                         <img class="img-responsive img-thumbnail" src="images/s1/Q2I3.JPG" alt="" />
                       </label>

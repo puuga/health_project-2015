@@ -83,8 +83,12 @@
           </div>
           <div class="panel-body">
             <p>
-              <?php echo $welcome_text; ?>
-              <?php echo $title; ?>
+              <?php echo $process_text_detail; ?>
+              <ol>
+                <li><?php echo $process_a_title; ?></li>
+                <li><?php echo $process_b_title; ?></li>
+                <li><?php echo $process_c_title; ?></li>
+              </ol>
             </p>
           </div>
         </div>
@@ -137,7 +141,7 @@
 
     <div class="row">
       <div class="col-lg-6 col-lg-offset-6 text-right">
-        <a class="btn btn-material-orange btn-lg" href="#" role="button">
+        <a class="btn btn-material-orange btn-lg" href="explanation.php" role="button">
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           <?php echo $next; ?>
         </a>

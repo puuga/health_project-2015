@@ -19,7 +19,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="detail.php"><?php echo $condition; ?></a></li>
         <li><a href="welcome.php"><?php echo $process_text; ?></a></li>
-        <li><a href="#"><?php echo $explanation; ?></a></li>
+        <li><a href="explanation.php"><?php echo $explanation; ?></a></li>
         <li><a href="q_section_0.php"><?php echo $evaluation; ?></a></li>
       </ul>
 

@@ -28,11 +28,12 @@
         <div class="panel panel-material-grey">
           <div class="panel-body text-center">
             <p>
-              <img src="images/logo.jpg" alt="<?php echo $title_th; ?>" class="img-responsive" style="margin:auto;"/>
+              <img src="images/web.jpg" alt="<?php echo $title_th; ?>" class="img-responsive" style="margin:auto;"/>
             </p>
             <h1>
-              <?php echo $title_th; ?><br/>
-              <?php echo $title_en; ?>
+              <!-- <?php echo $title_th; ?><br/>
+              <?php echo $title_en; ?> -->
+              <?php echo $dept_health_science_s; ?>
             </h1>
           </div>
         </div>

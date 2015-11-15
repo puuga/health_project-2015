@@ -92,12 +92,59 @@
 
     <h1><?php echo $evaluation_result; ?></h1>
 
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <?php echo $score." ".$score_section_e." ".$score_s; ?>
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <p>
+              <?php echo $score_a; ?><br/>
+              <font size="7"><strong><?php echo $score_section_a; ?></strong></font>
+              <?php echo $score_s; ?>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <p>
+              <?php echo $score_b; ?><br/>
+              <font size="7"><strong><?php echo $score_section_b; ?></strong></font>
+              <?php echo $score_s; ?>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <p>
+              <?php echo $score_c; ?><br/>
+              <font size="7"><strong><?php echo $score_section_c; ?></strong></font>
+              <?php echo $score_s; ?>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <p>
+              <?php echo $score; ?><br/>
+              <font size="7"><strong><?php echo $score_section_e; ?></strong></font>
+              <?php echo $score_s; ?>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
+
+
+    <h6><?php echo $score_ss; ?></h6>
     <h2><?php echo $s_title; ?></h2>
 
     <div class="panel panel-default">
@@ -289,6 +336,13 @@
         <p><img class="img-responsive" src="images/advice/37.jpg"></p>
       </div>
     </div>
+
+    <p>
+      <a href="files/advice -581115 22.20.pdf" class="btn btn-material-orange btn-lg" role="button">
+        <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+        <?php echo $download_advice; ?>
+      </a>
+    </p>
 
   </div>
   <?php include "nev_bar.php" ?>

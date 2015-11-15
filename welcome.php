@@ -101,8 +101,9 @@
           </div>
           <div class="panel-body">
             <p>
-              <?php echo $welcome_text; ?>
-              <?php echo $title; ?>
+              <img class="img-responsive"
+                src="images/eva_s1_n.jpg"
+                alt="<?php echo $process_a_title; ?>" />
             </p>
           </div>
         </div>
@@ -115,8 +116,9 @@
           </div>
           <div class="panel-body">
             <p>
-              <?php echo $welcome_text; ?>
-              <?php echo $title; ?>
+              <img class="img-responsive"
+                src="images/eva_s2_n.jpg"
+                alt="<?php echo $process_b_title; ?>" />
             </p>
           </div>
         </div>
@@ -129,8 +131,9 @@
           </div>
           <div class="panel-body">
             <p>
-              <?php echo $welcome_text; ?>
-              <?php echo $title; ?>
+              <img class="img-responsive"
+                src="images/eva_s3_n.jpg"
+                alt="<?php echo $process_c_title; ?>" />
             </p>
           </div>
         </div>

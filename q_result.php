@@ -17,7 +17,6 @@
 <body>
   <div class="container">
 
-    <h1>Result</h1>
     <?php
       function calSectionA($entry) {
         $qa1= $entry["key_qa1"]+$entry["key_qa1_e1"]+$entry["key_qa1_e2"];
@@ -68,7 +67,7 @@
     ?>
 
 
-    <p>
+    <!-- <p>
       <?php print_r($entry); ?>
     </p>
     <p>
@@ -89,22 +88,205 @@
 
     <p>
       <?php echo "e".$score_section_e; ?>
-    </p>
+    </p> -->
+
+    <h1><?php echo $evaluation_result; ?></h1>
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <?php echo $score." ".$score_section_e." ".$score_s; ?>
+      </div>
+    </div>
+
+    <h2><?php echo $s_title; ?></h2>
+
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title">Panel title</h3>
+        <h3 class="panel-title"><?php echo $s_chair; ?></h3>
       </div>
       <div class="panel-body">
-        Basic panel example
+        <h4><?php echo $s_1_1_t; ?></h4>
+        <p><?php echo $s_1_1_1; ?></p>
+        <p><?php echo $s_1_1_1_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/01.jpg"></p>
+
+        <p><?php echo $s_1_1_2; ?></p>
+        <p><?php echo $s_1_1_2_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/02.jpg"></p>
+
+        <p><?php echo $s_1_1_3; ?></p>
+        <p><?php echo $s_1_1_3_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/03.jpg"></p>
+
+        <h4><?php echo $s_1_2_t; ?></h4>
+        <p><?php echo $s_1_2_1; ?></p>
+        <p><?php echo $s_1_2_1_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/04.jpg"></p>
+
+        <p><?php echo $s_1_2_2; ?></p>
+        <p><?php echo $s_1_2_2_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/05.jpg"></p>
+
+        <p><?php echo $s_1_2_3; ?></p>
+        <p><?php echo $s_1_2_3_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/06.jpg"></p>
+
+        <h4><?php echo $s_1_3_t; ?></h4>
+        <p><?php echo $s_1_3_1; ?></p>
+        <p><?php echo $s_1_3_1_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/07.jpg"></p>
+
+        <p><?php echo $s_1_3_2; ?></p>
+        <p><?php echo $s_1_3_2_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/08.jpg"></p>
+
+        <p><?php echo $s_1_3_3; ?></p>
+        <p><?php echo $s_1_3_3_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/09.jpg"></p>
+
+        <p><?php echo $s_1_3_4; ?></p>
+        <p><?php echo $s_1_3_4_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/10.jpg"></p>
+
+        <p><?php echo $s_1_3_5; ?></p>
+        <p><?php echo $s_1_3_5_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/11.jpg"></p>
+
+        <h4><?php echo $s_1_4_t; ?></h4>
+        <p><?php echo $s_1_4_1; ?></p>
+        <p><?php echo $s_1_4_1_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/12.jpg"></p>
+
+        <p><?php echo $s_1_4_2; ?></p>
+        <p><?php echo $s_1_4_2_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/13.jpg"></p>
+
+        <p><?php echo $s_1_4_3; ?></p>
+        <p><?php echo $s_1_4_3_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/14.jpg"></p>
+
+        <p><?php echo $s_1_4_4; ?></p>
+        <p><?php echo $s_1_4_4_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/15.jpg"></p>
+
+        <p><?php echo $s_1_4_5; ?></p>
+        <p><img class="img-responsive" src="images/advice/16.jpg"></p>
+
+        <p><?php echo $s_1_4_6; ?></p>
+        <p><img class="img-responsive" src="images/advice/17.jpg"></p>
+
       </div>
     </div>
 
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title">Panel title</h3>
+        <h3 class="panel-title"><?php echo $s_computer; ?></h3>
       </div>
       <div class="panel-body">
-        Basic panel example
+        <h4><?php echo $s_2_1_t; ?></h4>
+        <p><?php echo $s_2_1_1; ?></p>
+        <p><?php echo $s_2_1_1_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/18.jpg"></p>
+
+        <p><?php echo $s_2_1_2; ?></p>
+        <p><?php echo $s_2_1_2_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/19.jpg"></p>
+
+        <p><?php echo $s_2_1_3; ?></p>
+        <p><?php echo $s_2_1_3_s; ?></p>
+        <p><?php echo $s_2_1_3_ss; ?></p>
+        <p><img class="img-responsive" src="images/advice/20.jpg"></p>
+
+        <p><?php echo $s_2_1_4; ?></p>
+        <p><?php echo $s_2_1_4_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/21.jpg"></p>
+
+        <p><?php echo $s_2_1_5; ?></p>
+        <p><?php echo $s_2_1_5_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/22.jpg"></p>
+
+        <p><?php echo $s_2_1_6; ?></p>
+        <p><img class="img-responsive" src="images/advice/23.jpg"></p>
+
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><?php echo $s_telephone; ?></h3>
+      </div>
+      <div class="panel-body">
+        <h4><?php echo $s_3_1_t; ?></h4>
+        <p><?php echo $s_3_1_1; ?></p>
+        <p><?php echo $s_3_1_1_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/24.jpg"></p>
+
+        <p><?php echo $s_3_1_2; ?></p>
+        <p><?php echo $s_3_1_2_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/25.jpg"></p>
+
+        <p><?php echo $s_3_1_3; ?></p>
+        <p><?php echo $s_3_1_3_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/26.jpg"></p>
+
+        <p><?php echo $s_3_1_4; ?></p>
+        <p><?php echo $s_3_1_4_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/27.jpg"></p>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><?php echo $s_mouse; ?></h3>
+      </div>
+      <div class="panel-body">
+        <h4><?php echo $s_4_1_t; ?></h4>
+        <p><?php echo $s_4_1_1; ?></p>
+        <p><?php echo $s_4_1_1_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/28.jpg"></p>
+
+        <p><?php echo $s_4_1_2; ?></p>
+        <p><?php echo $s_4_1_2_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/29.jpg"></p>
+
+        <p><?php echo $s_4_1_3; ?></p>
+        <p><?php echo $s_4_1_3_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/30.jpg"></p>
+
+        <p><?php echo $s_4_1_4; ?></p>
+        <p><?php echo $s_4_1_4_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/31.jpg"></p>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><?php echo $s_keyboard; ?></h3>
+      </div>
+      <div class="panel-body">
+        <h4><?php echo $s_5_1_t; ?></h4>
+        <p><?php echo $s_5_1_1; ?></p>
+        <p><?php echo $s_5_1_1_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/32.jpg"></p>
+
+        <p><?php echo $s_5_1_2; ?></p>
+        <p><?php echo $s_5_1_2_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/33.jpg"></p>
+
+        <p><?php echo $s_5_1_3; ?></p>
+        <p><?php echo $s_5_1_3_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/34.jpg"></p>
+
+        <p><?php echo $s_5_1_4; ?></p>
+        <p><?php echo $s_5_1_4_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/35.jpg"></p>
+
+        <p><?php echo $s_5_1_5; ?></p>
+        <p><?php echo $s_5_1_5_s; ?></p>
+        <p><img class="img-responsive" src="images/advice/36.jpg"></p>
+
+        <p><?php echo $s_5_1_6; ?></p>
+        <p><img class="img-responsive" src="images/advice/37.jpg"></p>
       </div>
     </div>
 

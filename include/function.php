@@ -321,16 +321,16 @@ function calCrossTable4($a, $b) {
 
 function calCrossTable5($a, $b) {
 
-  $cross[1][1] = 1;
-  $cross[1][2] = 2;
-  $cross[1][3] = 3;
-  $cross[1][4] = 4;
-  $cross[1][5] = 5;
-  $cross[1][6] = 6;
-  $cross[1][7] = 7;
-  $cross[1][8] = 8;
-  $cross[1][9] = 9;
-  $cross[1][10] = 10;
+  // $cross[1][1] = 1;
+  // $cross[1][2] = 2;
+  // $cross[1][3] = 3;
+  // $cross[1][4] = 4;
+  // $cross[1][5] = 5;
+  // $cross[1][6] = 6;
+  // $cross[1][7] = 7;
+  // $cross[1][8] = 8;
+  // $cross[1][9] = 9;
+  // $cross[1][10] = 10;
 
   $cross[2][1] = 2;
   $cross[2][2] = 2;
